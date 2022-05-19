@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Prueba tecnica-Byron Rivas</title>
+</head>
+
+<body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-sm navbar-light bg-light" id="navbar">
+        <div class="container-fluid"> 
+            <a class="navbar-brand" href="https://www.proteccion.com/">
+                <img src="img/logo.png" alt="" width="200">
+            </a>
+            <button class="navbar-toggler"
+                type="button" 
+                data-toggle="collapse" 
+                data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul Class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=bfrivasd@unal.edu.co" target="_blank">Enviar correo</a></li>
+                    <li class="nav-item"><a class="nav-link" href="https://www.linkedin.com/in/byron-rivas-eng"target="_blank">Perfil linkedIn</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Prueba tecnica -->
+    <nav id="mdb-navbar" class="  navbar navbar-expand-lg navbar-dark bg-primary shadow-2">
+        <div class="container-fluid"> 
+            <div>Prueba tecnica</div>
+            <span class="navbar-nav ms-auto d-flex flex-row">
+                <ul class="nav">
+                    <li><a>Hora actual: </a></li>
+                    <li><a id="clock"></a></li>
+                </ul>
+            </span>
+        </div>
+    </nav>
+    <main class="container">
+        <div class="bg-light p-5 rounded">
+            <h1>Fibbonacci (minutos, segundos)</h1>
+            <p class="lead">Este ejercio consiste en mostrar los N primeros números (sin contar las semillas) de la serie Fibonacci en orden descendente, teniendo como parametros de entrada los minutos y segundos al momento de hacer "click" en "Generar serie".</p>
+            <a class="btn btn-lg btn-primary" id="BtCalc" role="button">Generar serie »</a>
+        </div>
+        <div class="card-group">
+            <div class="card bg-light" style="max-width: 100%;">
+                <!-- <div class="card-header">Header</div> -->
+                <div class="card-body">
+                    <h5 class="card-title">Parametros de entrada: </h5>
+                    <p class="card-text" id="TbInput">Presiona "Generar serie" para visualizar parametros de entrada.</p>
+                </div>
+            </div>
+            <div class="card bg-light" style="max-width: 100%;">
+                <!-- <div class="card-header">Header</div> -->
+                <div class="card-body">
+                    <h5 class="card-title">Resultado: </h5>
+                    <p class="card-text" id="TbResult">Presiona "Generar serie" para visualizar un resultado.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="js/app.js"></script>
+</body>
+</html>
